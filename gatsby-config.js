@@ -5,7 +5,14 @@ const googleAnalyticsTrackingId = process.env.GOOGLE_ANALYTICS_ID
 
 module.exports = {
   siteMetadata: {
-    siteTitleAlt: `Minimal Blog - Gatsby Theme`,
+    siteTitle: `H1ya`,
+    siteTitleAlt: `H1ya's Ops Blog`,
+    siteHeadline: `H1ya's Ops Blog`,
+    siteUrl: `https://h1ya.com`,
+    siteDescription: `记录Linux、VMware、容器化、自动化运维等方面的知识。`,
+    siteLanguage: `cn`,
+    siteImage: `/banner.jpg`,
+    author: `@H1ya`,
   },
   flags: {
     FAST_DEV: true,
@@ -17,23 +24,23 @@ module.exports = {
       options: {
         navigation: [
           {
-            title: `Blog`,
+            title: `博客`,
             slug: `/blog`,
           },
           {
-            title: `About`,
+            title: `关于`,
             slug: `/about`,
           },
         ],
         externalLinks: [
-          {
-            name: `Twitter`,
-            url: `https://twitter.com/lekoarts_de`,
-          },
-          {
-            name: `Homepage`,
-            url: `https://www.lekoarts.de?utm_source=minimal-blog&utm_medium=Starter`,
-          },
+//          {
+//            name: `Twitter`,
+//            url: `https://twitter.com/lekoarts_de`,
+//          },
+//          {
+//            name: `Homepage`,
+//            url: `https://www.lekoarts.de?utm_source=minimal-blog&utm_medium=Starter`,
+//          },
         ],
       },
     },
